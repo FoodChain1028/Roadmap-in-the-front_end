@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+  background-color: #F3EEE3;
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  flex-wrap: nowrap;
+}
+
+.navbar .list {
+  display: inline;
+  width: 300px;
+}
+.home-icon, .mint-icon, .ver-icon{
+  cursor: pointer;
+  margin-right: 20px;
+}
+.navbar .home-icon {
+  display: inline-block;
+  height: 40px;
+}
+
+.mint-icon {
+  display: inline-block;
+  height: 40px;
+}
+
+.ver-icon {
+  display: inline-block;
+  height: 40px;
+}
+
+.navbar .olympics-symbol{
+  width: 220px;
+  height: 150px;
+}
+
+.navbar .OlymLogo {
+  scale: 25%;
+}
+
+
+.navbar .title {
+  width: 500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.navbar .log-in-area .log-in-btn{
+  font-size: 18px;
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(223, 171, 92);
+  margin-left: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar .log-in-area .log-in-btn:hover{
+  background-color: rgba(255, 134, 6, 0.817);
+  color: white;
+  border: none;
+}
+
+.navbar .log-in-area .install-link{
+  font-size: 16px;
+  width: 50px;
+  height: auto;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(223, 171, 92);
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar .log-in-area .install-link:hover{
+  background-color: rgba(255, 134, 6, 0.817);
+  color: white;
+  border: none;
+}
+
+.home {
+  position: absolute;
+  width: 990.81px;
+  height: 400px;
+  left: 148.07px;
+  top: 169.2px;
+  margin-top: 70px;
+  margin-left: 40px;
+  background: #ABABAB;
+  border-radius: 12px;
+}
+
+.home .staff {
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  width: 280.83px;
+  height: 150.97px;
+  left: 130.42px;
+  top: 150.67px;
+  background: #E3E3E3;
+  border-radius: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home .audience {  
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  width: 280.83px;
+  height: 150.97px;
+  left: 545.42px;
+  top: 150px;
+  background: #E3E3E3;
+  border-radius: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-decoration: none;
+  margin: none;
+}
+
+.staff>img {
+  scale: 25%;
+  position: absolute;
+  left: -95px;
+  top: -145px;
+}
+
+.staff>img {
+  scale: 25%;
+  position: absolute;
+  left: -95px;
+  top: -145px;
+}
+
+.audience>img {
+  scale: 25%;
+  position: absolute;
+  left: -95px;
+  top: -145px;
+}
+
+.home-title {
+  color:aliceblue ;
+  font-weight: 1000;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.plus,.minus {
+  border: none;
+}
+
+.plus {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color:aliceblue;
+  width: 60px;
+  margin-left: 6.9em;
+  margin-top: 2em;
+  margin-right: 10px;
+}
+
+.mint-num {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color:aliceblue;
+  width: 180px;
+  margin-right: 10px;
+}
+
+.minus {
+  display: inline-block;
+  font-size: 48px;
+  font-weight: 1000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color:aliceblue;
+  width: 60px;
+  
+}
+
+.mint-btn {
+  font-size: 32px;
+  font-weight: 1000;
+  width: 180px;
+  height: auto;
+  padding: 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(223, 171, 92);
+  cursor: pointer;
+  transition: 0.3s;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.mint-btn:hover {
+  background-color: rgba(255, 134, 6, 0.817);
+  color: white;
+  border: none;
+}
+
+.mint-success {
+  background-color: none;
+  text-align: center;
+  text-decoration:underline;
+  color:black;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 60px;
+}
+
+.no-ticket {
+  color:aliceblue ;
+  font-weight: 1000;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 175px;
+}
+
+.nft-data {
+  position: absolute;
+  width: 990.81px;
+  height: 400px;
+  left: 148.07px;
+  top: 169.2px;
+  margin-top: 70px;
+  margin-left: 40px;
+  background: #ABABAB;
+  border-radius: 12px;
+  align-content: center;
+}
+
+
+.nft-box {
+  display: flex;
+  margin-top: 140px;
+  margin-left: 300px;
+}
+
+.qrcode {
+  padding: 20px;
+  border-radius: 25px;
+  width: 200px;
+  margin-top: 90px;
+  margin-left: 380px;
+  border: 20px;
+}
+
+.nft-box>button {
+  border: none;
+  background: none;
+}
+
+.nft-img {
+  background-color: #F3EEE3;
+  width: 100px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.nft-num {
+  margin-left: 30px;
+  margin-top: 50px;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.pending {
+  color:aliceblue ;
+  font-weight: 1000;
+  font-size: 32px;
+  text-align: center;
+  margin-top: 175px;
+}
