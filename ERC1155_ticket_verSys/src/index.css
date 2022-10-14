@@ -299,6 +299,13 @@
   font-weight: bold;
 }
 
+.qr-data {
+  /* margin-left: 10px; */
+  margin-top: 50px;
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 10px;
+}
 .pending {
   color:aliceblue ;
   font-weight: 1000;

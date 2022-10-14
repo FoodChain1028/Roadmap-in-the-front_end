@@ -2,7 +2,7 @@ import { MerkleTree } from 'merkletreejs';
 import { useState } from "react";
 import keccak256 from 'keccak256';
 import Web3 from 'web3';
-import abi from './abi/verifySig.json';
+import abi from './abi/ticketContractAbi.json';
 
 const MerkleProof = ({ accounts }) => {
   const [sig, setSig] = useState("");
@@ -74,15 +74,12 @@ const MerkleProof = ({ accounts }) => {
     .then( (result)=> {
       console.log(result);
     });
-    
-
   }
-    
-    
+
   return ( 
-    <div>
-      <button onClick={ () => MT()}>
-        AAAAAAAAAAAAAAAA
+    <div className='nft-data'>
+      <button onClick={ () => { MT() }}>
+        Press To Verify
       </button> 
     </div>
   );

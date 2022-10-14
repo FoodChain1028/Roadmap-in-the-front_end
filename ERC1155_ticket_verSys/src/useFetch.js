@@ -32,7 +32,7 @@ const useFetch = (url) => {
       })
     }, 100);
     return () => abortCont.abort();
-  }, []);
+  }, [url]);
 
   return { data, isPending, error };
 }

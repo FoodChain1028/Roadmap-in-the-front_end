@@ -10,7 +10,7 @@ const Mint = ({ accounts }) => {
   const prefix = "https://goerli.etherscan.io/tx/"
 
   const web3 = new Web3(Web3.givenProvider);
-  const ticketAddress = "0x4D2669542f0e6041C83c83cbEDa8df6262977Ec1";
+  const ticketAddress = "0x0F72a9e7B2973d3DBcA571633f6c0ffF4E255a5b";
   const goerliId = 5;
   const switchNetwork = () => {
 

@@ -5,6 +5,7 @@ import Home from './Home';
 import Mint from './Mint';
 import Verify from './Verify';
 import MerkleProof from './MerkleProof';
+import InfuraTxPractice from './InfuraTxPractice';
 import QRScan from './QRScan';
 
 const App = () => {
@@ -22,15 +23,17 @@ const App = () => {
             <Route path="/Mint/Audience">
               { <Mint accounts={accounts}/> }
             </Route> 
-            
-            <Route>
-              { <Verify exact path="/Verify" accounts={accounts}/> }
+            <Route path="/Verify">
+              { <Verify  accounts={accounts}/> }
             </Route>
-                        <Route>
-              { <MerkleProof exact path="/MerkleProof" accounts={accounts}/> }
+            <Route path="/MerkleProof">
+              { <MerkleProof accounts={accounts}/> }
             </Route>
-            <Route>
-              { <QRScan path="/QRScan"/> }
+            <Route  path="/QRScan" >
+              { <QRScan/> }
+            </Route>
+            <Route path="/InfuraTxPractice">
+              <InfuraTxPractice />
             </Route>
           </Switch>
         </div>
